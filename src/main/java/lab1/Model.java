@@ -3,7 +3,7 @@ package lab1;
 import lombok.Getter;
 import lombok.Setter;
 
-public class Model {
+class Model {
 
     @Getter @Setter double     leftLimit;
     @Getter @Setter double     rightLimit;
@@ -17,7 +17,7 @@ public class Model {
     @Getter @Setter int        optimum;
 
 
-    public Model(double leftLimit, double rightLimit, double... a) {
+    Model(double leftLimit, double rightLimit, double... a) {
         this.leftLimit  = leftLimit;
         this.rightLimit = rightLimit;
         this.a          = a;
