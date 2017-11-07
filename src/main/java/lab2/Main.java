@@ -30,7 +30,7 @@ public class Main {
             System.out.printf("%3d %"+l+".2f %"+l+".2f %"+l+".2f %"+l+".2f %"+l+".2f%n", i, x1[i], x2[i], x1n[i], x2n[i], my[i]);
         }
 
-        model.y.forEach(s -> System.out.println(Arrays.toString(s)));
+//        model.y.forEach(s -> System.out.println(Arrays.toString(s)));
 
 
     }
